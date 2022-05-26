@@ -1,0 +1,94 @@
+/*
+  Cameron Samuels
+  May 26, 2022
+*/
+
+@font-face {
+  font-family: conflict;
+  src: url(conflict.ttf);
+}
+
+html, body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  background: #1A1A1A;
+  color: #f0f0f0;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+main {
+  width: 100vw;
+  max-width: 800px;
+  height: 1005;
+  background: #8B8680;
+  border: 10px #830213;
+  border-top-width: 0;
+  border-bottom-width: 0;
+}
+
+span.blood {
+  font-family: conflict;
+  font-weight: normal;
+}
+
+h3 {
+  margin-bottom: 0;
+}
+
+h1 {
+  margin-top: 5px;
+}
+
+h2 {
+  
+}
+
+textarea,
+input[type="text"],
+a.button {
+  display: block;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  width: 80vw;
+  max-width: 600px;
+  margin: 10px auto;
+  padding: 20px;
+}
+
+textarea,
+input[type="text"] {
+  background: #fff;
+  border: 1vmin #830213 solid;
+  border-radius: 0;
+  outline: 0;
+}
+
+textarea {
+  height: 410px;
+}
+
+a.button {
+  color: #f0f0f0 !important;
+}
+
+.button {
+  background: #830213;
+  color: #8B8680;
+  font-weight: bold;
+}
+
+footer {
+  margin: 50px 0;
+  padding-bottom: 100px;
+}
+
+footer a {
+  color: #fff !important;
+}
