@@ -69,6 +69,7 @@ input[type="text"] {
   border: 1vmin #830213 solid;
   border-radius: 0;
   outline: 0;
+  opacity: 1;
 }
 
 textarea {
