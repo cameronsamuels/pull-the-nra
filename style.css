@@ -64,7 +64,7 @@ a.button {
 
 textarea,
 input[type="text"] {
-  background: #fff;
+  background: #fff !important;
   border: 1vmin #830213 solid;
   border-radius: 0;
   outline: 0;
